@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: 560e4499f1dd16140b55b04c05bf0632
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3324124559632433453
+    second: blue-whale-smile_0
+  - first:
+      213: 5690916276475914907
+    second: blue-whale-smile_1
+  - first:
+      213: -8301924938704032302
+    second: blue-whale-smile_2
+  - first:
+      213: 2313311731128066881
+    second: blue-whale-smile_3
+  - first:
+      213: 8757924115003165223
+    second: blue-whale-smile_4
+  - first:
+      213: -7656493961237475990
+    second: blue-whale-smile_5
+  - first:
+      213: -2033803035439829010
+    second: blue-whale-smile_6
+  - first:
+      213: 7494293030768653539
+    second: blue-whale-smile_7
+  - first:
+      213: 8503295234183156078
+    second: blue-whale-smile_8
+  - first:
+      213: 3563330801894318597
+    second: blue-whale-smile_9
+  - first:
+      213: 1974645539198801626
+    second: blue-whale-smile_10
+  - first:
+      213: 2121427293391714775
+    second: blue-whale-smile_11
+  - first:
+      213: -5717506243735164625
+    second: blue-whale-smile_12
+  - first:
+      213: -2193903370615626331
+    second: blue-whale-smile_13
+  - first:
+      213: -8400894397864156722
+    second: blue-whale-smile_14
+  - first:
+      213: 5137247611153218854
+    second: blue-whale-smile_15
+  - first:
+      213: -8623209675550769243
+    second: blue-whale-smile_16
+  - first:
+      213: -709278359461432989
+    second: blue-whale-smile_17
+  - first:
+      213: -4444013093242566670
+    second: blue-whale-smile_18
+  - first:
+      213: 3177973656050908149
+    second: blue-whale-smile_19
+  - first:
+      213: 7044489795493508727
+    second: blue-whale-smile_20
+  - first:
+      213: 1848770743973217981
+    second: blue-whale-smile_21
+  - first:
+      213: -2796592276630327687
+    second: blue-whale-smile_22
+  - first:
+      213: 4430636170559764757
+    second: blue-whale-smile_23
+  - first:
+      213: -475253728086845527
+    second: blue-whale-smile_24
+  - first:
+      213: -7564827522101150332
+    second: blue-whale-smile_25
+  - first:
+      213: -7472766904502313363
+    second: blue-whale-smile_26
+  - first:
+      213: 9021577370355566755
+    second: blue-whale-smile_27
+  - first:
+      213: -8599333100686571158
+    second: blue-whale-smile_28
+  - first:
+      213: 5156933303031140406
+    second: blue-whale-smile_29
+  - first:
+      213: 5076070755981362491
+    second: blue-whale-smile_30
+  - first:
+      213: 3288022337196163509
+    second: blue-whale-smile_31
+  - first:
+      213: -2798011084726094377
+    second: blue-whale-smile_32
+  - first:
+      213: -3251410516965641966
+    second: blue-whale-smile_33
+  - first:
+      213: -1981349882762163843
+    second: blue-whale-smile_34
+  - first:
+      213: -1333429083558439623
+    second: blue-whale-smile_35
+  - first:
+      213: 8920550111245850074
+    second: blue-whale-smile_36
+  - first:
+      213: -7626634232178898900
+    second: blue-whale-smile_37
+  - first:
+      213: 5301094850495491284
+    second: blue-whale-smile_38
+  - first:
+      213: -1364750881102274632
+    second: blue-whale-smile_39
+  - first:
+      213: 6010658955954789102
+    second: blue-whale-smile_40
+  - first:
+      213: 5624877518377537421
+    second: blue-whale-smile_41
+  - first:
+      213: -1106476307946828817
+    second: blue-whale-smile_42
+  - first:
+      213: 3508578585667181541
+    second: blue-whale-smile_43
+  - first:
+      213: -5989136416128357146
+    second: blue-whale-smile_44
+  - first:
+      213: -5976685274580397913
+    second: blue-whale-smile_45
+  - first:
+      213: 5010928719058203961
+    second: blue-whale-smile_46
+  - first:
+      213: -2626941061429038650
+    second: blue-whale-smile_47
+  - first:
+      213: 8530684351011419572
+    second: blue-whale-smile_48
+  - first:
+      213: -2861894003160775235
+    second: blue-whale-smile_49
+  - first:
+      213: 8161751991248791897
+    second: blue-whale-smile_50
+  - first:
+      213: -8407218611665146675
+    second: blue-whale-smile_51
+  - first:
+      213: 4107965688268449040
+    second: blue-whale-smile_52
+  - first:
+      213: 2374842205998075814
+    second: blue-whale-smile_53
+  - first:
+      213: -5360127923628851994
+    second: blue-whale-smile_54
+  - first:
+      213: 7104293465892985193
+    second: blue-whale-smile_55
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blue-whale-smile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d210b0ecca9a12e20800000000000000
+      internalID: 3324124559632433453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ae5d1a3323afe40800000000000000
+      internalID: 5690916276475914907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dde694f043a9cc80800000000000000
+      internalID: -8301924938704032302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143e1a453c88a1020800000000000000
+      internalID: 2313311731128066881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a4794c4956a8970800000000000000
+      internalID: 8757924115003165223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d448fde4baeb590800000000000000
+      internalID: -7656493961237475990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef6f713aea76c3e0800000000000000
+      internalID: -2033803035439829010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4b6a51ec3110860800000000000000
+      internalID: 7494293030768653539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6152cd86f5c10670800000000000000
+      internalID: 8503295234183156078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5026e182c7e737130800000000000000
+      internalID: 3563330801894318597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad61141e7a9576b10800000000000000
+      internalID: 1974645539198801626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d97e6f22e2d07d10800000000000000
+      internalID: 2121427293391714775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29661d2d5657a0b0800000000000000
+      internalID: -5717506243735164625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue-whale-smile_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a56cea1280bd81e0800000000000000
+      internalID: -2193903370615626331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
