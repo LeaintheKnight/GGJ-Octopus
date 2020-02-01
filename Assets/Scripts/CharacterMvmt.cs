@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class CharacterMvmt : MonoBehaviour
 {
-
-    public float speed = 3.5f;
-    Rigidbody rb;
-
-    Vector3 targetPosition;
+    public Camera cam;
+    int distance = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,14 +19,17 @@ public class CharacterMvmt : MonoBehaviour
     }
 
     void Move(){
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-
-        if(Input.GetMouseButtonDown(0)){
-            if(Physics.Raycast(ray, out hit, 100)){
-                targetPosition = hit.point;
-            }
+        if (Input.GetKey(KeyCode.W)){
+            transform.position = transform.position + Camera.main.transform.forward * distance * Time.deltaTime;
         }
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+        else if(Input.GetKey(KeyCode.A)){
+            transform.position = transform.position - Camera.main.transform.right * Time.deltaTime;
+        }
+        else if(Input.GetKey(KeyCode.S)){
+            transform.position = transform.position - Camera.main.transform.forward * distance * Time.deltaTime;
+        }
+        else if(Input.GetKey(KeyCode.D)){
+            transform.position = transform.position + Camera.main.transform.right * Time.deltaTime;
+        }
     }
 }
