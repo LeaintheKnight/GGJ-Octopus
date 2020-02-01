@@ -4,6 +4,12 @@ public class GameManager : MonoBehaviour
 {
     int numberOfTurtlesSaved;
     int trashCollected;
+    int numberOfTurtlesAlive;
+    public static GameManager instance;
+
+    private void Awake() {
+        instance = this;
+    }
 
 
     // Start is called before the first frame update
@@ -17,11 +23,16 @@ public class GameManager : MonoBehaviour
     {
         
     }
-    void collectTrash(){
-
+    public void collectTrash(){
+        trashCollected += 1;
+    }
+    public void collectTurtle(){
+        numberOfTurtlesSaved += 1;
     }
     void gameOver(){
+        if(numberOfTurtlesSaved == 0 && numberOfTurtlesAlive == 0){
 
+        }
     }
 
     void numberOfTurtlesLeft(){
