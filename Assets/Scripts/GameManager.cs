@@ -5,6 +5,8 @@ public class GameManager : MonoBehaviour
     int numberOfTurtlesSaved;
     int trashCollected;
     int numberOfTurtlesAlive;
+    public int maxNumberOfTurtles;
+    public int maxTrash;
     public static GameManager instance;
 
     private void Awake() {
@@ -15,7 +17,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        maxNumberOfTurtles = GameObject.FindGameObjectsWithTag("babyTurtle").Length;
+        maxTrash = GameObject.FindGameObjectsWithTag("trash").Length;
     }
 
     // Update is called once per frame
@@ -30,13 +33,18 @@ public class GameManager : MonoBehaviour
         numberOfTurtlesSaved += 1;
     }
     void gameOver(){
-        if(numberOfTurtlesSaved == 0 && numberOfTurtlesAlive == 0){
+        //Failure
+        if(numberOfTurtlesSaved == 0 && numberOfTurtlesAlive == 0 && numberOfTurtlesLeft() == 0){
+
+        }
+        //Success
+        else if(numberOfTurtlesSaved > 0 && numberOfTurtlesAlive > 0 && numberOfTurtlesLeft() == 0){
 
         }
     }
 
-    void numberOfTurtlesLeft(){
-
+    int numberOfTurtlesLeft(){
+        return GameObject.FindGameObjectsWithTag("babyTurtle").Length;
     }
 
     //
@@ -46,21 +54,22 @@ public class GameManager : MonoBehaviour
 
     public int getTrash() // Returns the amount of trash collected
     {
-        return 0;
+        return trashCollected;
     }
 
     public int getTrashMax() // Returns the max amount of trash in the game
     {
-        return 0;
+        return maxTrash;
     }
 
     public int getTurtles() // Returns the number of turtles collected
     {
-        return 0;
+        return numberOfTurtlesSaved;
     }
 
     public int getTurtlesMax() // Returns the max number of turtles in the game
     {
-        return 0;
+        return maxNumberOfTurtles;
+;
     }
 }
