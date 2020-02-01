@@ -2,11 +2,11 @@
 
 public class GameManager : MonoBehaviour
 {
-    int numberOfTurtlesSaved;
-    int trashCollected;
-    int numberOfTurtlesAlive;
-    public int maxNumberOfTurtles;
-    public int maxTrash;
+    private int numberOfTurtlesSaved;
+    private int trashCollected;
+    private int numberOfTurtlesAlive;
+    private int maxNumberOfTurtles;
+    private int maxTrash;
     public static GameManager instance;
 
     private void Awake() {
@@ -70,6 +70,8 @@ public class GameManager : MonoBehaviour
     public int getTurtlesMax() // Returns the max number of turtles in the game
     {
         return maxNumberOfTurtles;
-;
+    }
+    public void turtleDied(){
+        numberOfTurtlesAlive -= 1;
     }
 }
