@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +16,15 @@ public class player : MonoBehaviour
     {
         
     }
+    private void OnCollisionEnter(Collision other) {
+        if(other.gameObject.tag == "trash"){
+            GameManager.instance.collectTrash();
+        }
+
+        if(other.gameObject.tag == "babyTurtle"){
+            GameManager.instance.collectTurtle();
+        }    
+    }
+
+
 }
