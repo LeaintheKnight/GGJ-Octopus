@@ -7,27 +7,29 @@ public class CharacterMvmt : MonoBehaviour
 
     public float speed = 3.5f;
     Rigidbody rb;
+
+    Vector3 targetPosition;
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("a"))
-        {
-            rb.AddForce(new Vector3(-1, 0, 0) * speed);
-        }
-        else if (Input.GetKey("d"))
-        {
-            rb.AddForce(new Vector3(1, 0, 0) * speed);
-        }
+        Move();
+    }
 
-        if (Input.GetKeyDown("space"))
-        {
-            rb.AddForce(new Vector3(0, 1, 0) * speed, ForceMode.Impulse);
+    void Move(){
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        if(Input.GetMouseButtonDown(0)){
+            if(Physics.Raycast(ray, out hit, 100)){
+                targetPosition = hit.point;
+            }
         }
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
     }
 }
