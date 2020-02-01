@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class swimMovement : MonoBehaviour
+public class SwimMovement : MonoBehaviour
 {
     [SerializeField] Transform moveTo;
     // Start is called before the first frame update
