@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 698085860371753146}
   - component: {fileID: 698085860371753145}
   - component: {fileID: 698085860371753144}
+  - component: {fileID: 2100392987}
   m_Layer: 0
   m_Name: Bubble
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698085860371753151}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.52299994, y: 0.010721013, z: 0}
   m_LocalScale: {x: 0.125, y: 0.125, z: 1}
   m_Children: []
@@ -101,3 +102,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2100392987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698085860371753151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6379c459f3bf8df46ac24681c9a5c90e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectStateName: Bubble
+  isAnimated: 1
