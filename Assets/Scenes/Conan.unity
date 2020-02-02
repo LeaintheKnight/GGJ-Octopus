@@ -452,7 +452,7 @@ PrefabInstance:
     - target: {fileID: 3703804426256547125, guid: e31804acb20ffd947b7a20b9a3de5dda,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.858
+      value: -15.91
       objectReference: {fileID: 0}
     - target: {fileID: 3703804426256547125, guid: e31804acb20ffd947b7a20b9a3de5dda,
         type: 3}
@@ -472,7 +472,7 @@ PrefabInstance:
     - target: {fileID: 3703804426256547125, guid: e31804acb20ffd947b7a20b9a3de5dda,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 3703804426256547125, guid: e31804acb20ffd947b7a20b9a3de5dda,
         type: 3}
@@ -482,7 +482,7 @@ PrefabInstance:
     - target: {fileID: 3703804426256547125, guid: e31804acb20ffd947b7a20b9a3de5dda,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 3703804426256547125, guid: e31804acb20ffd947b7a20b9a3de5dda,
         type: 3}
@@ -497,7 +497,7 @@ PrefabInstance:
     - target: {fileID: 3703804426256547125, guid: e31804acb20ffd947b7a20b9a3de5dda,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 3703804426256547125, guid: e31804acb20ffd947b7a20b9a3de5dda,
         type: 3}
@@ -637,7 +637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d72e0565fdb674c9c25951e8fd2470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goTo: {fileID: 0}
+  goTo: {fileID: 658990692}
   moveSpeed: 0.02
   flipX: 0
 --- !u!1 &430489404
@@ -1564,8 +1564,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707547297}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.16, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1586,8 +1586,8 @@ MonoBehaviour:
   attachTo: {fileID: 309239746}
   distanceBehind: 2
   verticalRotationLimit: 80
-  horizontalRotation: 0
-  verticalRotation: 0
+  horizontalRotation: 6
+  verticalRotation: 3
 --- !u!1 &1757708373
 GameObject:
   m_ObjectHideFlags: 0

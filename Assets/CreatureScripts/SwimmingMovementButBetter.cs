@@ -28,7 +28,7 @@ public class SwimmingMovementButBetter : MonoBehaviour
         for (int i = 0; i < goTo.Length; i++)
         {
             goToPosition[i + 1] = goTo[i].position;
-            Destroy(goTo[i]);
+            Destroy(goTo[i].gameObject);
         }
     }
 

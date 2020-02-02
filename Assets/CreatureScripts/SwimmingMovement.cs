@@ -25,7 +25,7 @@ public class SwimmingMovement : MonoBehaviour
         previousPosition = transform.position;
         startPosition = this.gameObject.transform.position;
         goToPosition = goTo.transform.position;
-        Destroy(goTo);
+        Destroy(goTo.gameObject);
     }
 
     // Update is called once per frame
