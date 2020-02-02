@@ -10,11 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5307848360672378987}
   - component: {fileID: 5307848360672378986}
-  - component: {fileID: -1165431305213074463}
   - component: {fileID: -6549047621193009201}
   - component: {fileID: -2526206045578318383}
-  - component: {fileID: 6433825965391787282}
-  - component: {fileID: 8980293493313092830}
+  - component: {fileID: -1906208884843034222}
+  - component: {fileID: 83303256818357662}
   m_Layer: 0
   m_Name: Straw
   m_TagString: trash
@@ -86,20 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-1165431305213074463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5307848360672378985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8fba3a17466dfb4f95adf9c8eb99b72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amplitude: 0.1
-  frequency: 0.2
 --- !u!114 &-6549047621193009201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 1
 --- !u!54 &-2526206045578318383
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -130,8 +116,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &6433825965391787282
-CapsuleCollider:
+--- !u!114 &-1906208884843034222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5307848360672378985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d971b05b9d239b4eaa95a99d5adee8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitude: 0.1
+  frequency: 0.2
+--- !u!135 &83303256818357662
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -140,21 +140,6 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.05
-  m_Height: 0.8
-  m_Direction: 1
-  m_Center: {x: 0.015, y: -0.09, z: 0}
---- !u!136 &8980293493313092830
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5307848360672378985}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.05
-  m_Height: 0.5
-  m_Direction: 0
-  m_Center: {x: 0.2, y: 0.235, z: 0}
+  serializedVersion: 2
+  m_Radius: 0.2
+  m_Center: {x: 0, y: 0.0000009536743, z: 0}

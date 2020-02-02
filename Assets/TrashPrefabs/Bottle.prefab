@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5461433668774281838}
   - component: {fileID: 5461433668774281839}
-  - component: {fileID: -4129775973726086502}
   - component: {fileID: 4629036258347795531}
   - component: {fileID: 2360762187283969592}
-  - component: {fileID: 1203060968854777632}
+  - component: {fileID: 2755692636174807562}
+  - component: {fileID: 3194540308286640948}
   m_Layer: 0
   m_Name: Bottle
   m_TagString: trash
@@ -85,20 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-4129775973726086502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5461433668774281836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8fba3a17466dfb4f95adf9c8eb99b72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amplitude: 0.1
-  frequency: 0.2
 --- !u!114 &4629036258347795531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 1
 --- !u!54 &2360762187283969592
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -129,8 +116,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &1203060968854777632
-CapsuleCollider:
+--- !u!135 &2755692636174807562
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -139,7 +126,20 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.1
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0.015, y: 0, z: 0}
+  serializedVersion: 2
+  m_Radius: 0.2
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3194540308286640948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5461433668774281836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d971b05b9d239b4eaa95a99d5adee8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitude: 0.1
+  frequency: 0.2
