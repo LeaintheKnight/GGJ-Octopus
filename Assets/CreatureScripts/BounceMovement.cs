@@ -20,7 +20,7 @@ public class BounceMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         if (delay-- <= 0)
         {
