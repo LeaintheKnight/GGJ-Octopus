@@ -31,7 +31,7 @@ public class character : MonoBehaviour
         if(other.gameObject.tag == "babyTurtle"){
             Destroy(other.gameObject);
             Instantiate (prefab, transform);
-            gameObject.transform.GetChild(GameManager.instance.getTurtles()+1).transform.localPosition = babies[GameManager.instance.getTurtles()];
+            gameObject.transform.GetChild(GameManager.instance.getTurtles()+2).transform.localPosition = babies[GameManager.instance.getTurtles()];
             GameManager.instance.collectTurtle();
         }       
     }
