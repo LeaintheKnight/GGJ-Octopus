@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6061101924237437515}
   - component: {fileID: 6061101924237437508}
   - component: {fileID: 421023724}
+  - component: {fileID: 353301102949643132}
   m_Layer: 0
   m_Name: leaf
   m_TagString: Untagged
@@ -96,3 +97,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+--- !u!114 &353301102949643132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6061101924237437509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8fba3a17466dfb4f95adf9c8eb99b72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitude: 0.15
+  frequency: 0.3

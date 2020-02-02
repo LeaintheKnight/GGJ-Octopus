@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8278516332412377777}
   - component: {fileID: 8278516332412377776}
   - component: {fileID: -8596601908470099469}
+  - component: {fileID: 1427087234126809862}
   m_Layer: 0
   m_Name: Bag
   m_TagString: Untagged
@@ -97,3 +98,17 @@ MonoBehaviour:
   initialSpeed: 0.025
   deceleration: 0.0002
   descentSpeed: 0.003
+--- !u!114 &1427087234126809862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8278516332412377743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6379c459f3bf8df46ac24681c9a5c90e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectStateName: None
+  isAnimated: 0

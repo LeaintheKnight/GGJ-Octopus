@@ -8,13 +8,21 @@ public class FaceCamera : MonoBehaviour
     [SerializeField] bool isAnimated = true;
     private Animator objectAnimator;
 
+    void Awake()
+    {
+        enabled = false;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         if(isAnimated)
         {
             objectAnimator = this.gameObject.GetComponent<Animator>();
-            objectAnimator.Play(objectStateName, -1, Random.Range(0.0f, 1.0f));
+            if (objectAnimator != null)
+            {
+                objectAnimator.Play(objectStateName, -1, Random.Range(0.0f, 1.0f));
+            }
         }
     }
 
@@ -22,5 +30,15 @@ public class FaceCamera : MonoBehaviour
     void Update()
     {
         transform.rotation = Camera.main.transform.rotation;
+    }
+
+    void OnBecameVisible()
+    {
+        enabled = true;
+    }
+
+    void OnBecameInvisible()
+    {
+        enabled = false;
     }
 }

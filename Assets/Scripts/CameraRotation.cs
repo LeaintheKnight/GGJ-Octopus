@@ -17,6 +17,9 @@ public class CameraRotation : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         transform.SetParent(attachTo);
         transform.localPosition = Vector3.back * distanceBehind;
+        transform.localRotation = Quaternion.identity;
+        horizontalRotation = transform.eulerAngles.y;
+        verticalRotation = transform.eulerAngles.x;
     }
 
     // Start is called before the first frame update

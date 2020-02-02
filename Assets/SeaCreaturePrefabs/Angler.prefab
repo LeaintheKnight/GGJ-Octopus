@@ -162,5 +162,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goTo: {fileID: 1126871923}
-  moveSpeed: 0.003
+  moveSpeed: 0.009
   flipX: 0

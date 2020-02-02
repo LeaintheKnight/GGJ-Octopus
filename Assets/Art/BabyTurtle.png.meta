@@ -1,25 +1,13 @@
 fileFormatVersion: 2
-guid: dd7fe6f41b2d63042b0d0d1eb04c7f1c
+guid: 7107c353d785bdf468b7d161ed6e8b8e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8169138957570109401
-    second: PlayerSwim_0
+      213: 6762649669435965319
+    second: BabyTurtle_0
   - first:
-      213: 5775102192982275839
-    second: PlayerSwim_1
-  - first:
-      213: 8848365540099245052
-    second: PlayerSwim_0
-  - first:
-      213: -4290438080881343647
-    second: PlayerSwim_1
-  - first:
-      213: -6287251687033568874
-    second: PlayerSwim_2
-  - first:
-      213: -417263106868492095
-    second: PlayerSwim_2
+      213: -7447166777429651197
+    second: BabyTurtle_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -83,7 +71,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -95,7 +83,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -104,7 +92,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerSwim_0
+      name: BabyTurtle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -112,20 +100,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf34c6cf395bbca70800000000000000
-      internalID: 8848365540099245052
+      spriteID: 78fb4275b02c9dd50800000000000000
+      internalID: 6762649669435965319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerSwim_1
+      name: BabyTurtle_1
       rect:
         serializedVersion: 2
         x: 32
@@ -133,35 +121,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16342421c4d4574c0800000000000000
-      internalID: -4290438080881343647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerSwim_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c84a314a65953af0800000000000000
-      internalID: -417263106868492095
+      spriteID: 3011730d54956a890800000000000000
+      internalID: -7447166777429651197
       vertices: []
       indices: 
       edges: []
@@ -169,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 26aa41540435f9349bc7f152a6a7c083
+    spriteID: 88add0dbcfc82e74b9a4dc2711fcc8f2
     internalID: 0
     vertices: []
     indices: 
