@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: event:/SFX/Scroll
   guid: 8f6311fdf2f30d4f8409214b105adb8c
   Banks:
-  - {fileID: -2535922381295000742}
+  - {fileID: 3423990114249629005}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -37,7 +37,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD_SaveTheTurtles/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637162537193787199
+  lastModified: 637162525968549638
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -58,7 +58,7 @@ MonoBehaviour:
   Path: event:/Music/Gameplay Music 3
   guid: a0116ce98be6ce42918462a417ee3625
   Banks:
-  - {fileID: -2535922381295000742}
+  - {fileID: 3423990114249629005}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -3540876701284152465}
-  - {fileID: -2535922381295000742}
+  - {fileID: 3423990114249629005}
   EditorEvents:
   - {fileID: 6629060697004691775}
   - {fileID: 6188988299772983462}
@@ -129,10 +129,10 @@ MonoBehaviour:
   - {fileID: 5178942402274107936}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -2535922381295000742}
+  - {fileID: 3423990114249629005}
   StringsBanks:
   - {fileID: -3540876701284152465}
-  stringsBankWriteTime: 637162537193787199
+  stringsBankWriteTime: 637162525968549638
   cacheVersion: 3
 --- !u!114 &2987147916814714801
 MonoBehaviour:
@@ -149,7 +149,7 @@ MonoBehaviour:
   Path: event:/SFX/Select
   guid: 51e1f24052717041b7bf5276c082385e
   Banks:
-  - {fileID: -2535922381295000742}
+  - {fileID: 3423990114249629005}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -157,6 +157,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2975
+--- !u!114 &3423990114249629005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_SaveTheTurtles/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637162525968539757
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5106949485401364673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,7 +190,7 @@ MonoBehaviour:
   Path: event:/SFX/Ocean Ambience
   guid: 639d730958498d44913ff44904de7c06
   Banks:
-  - {fileID: -2535922381295000742}
+  - {fileID: 3423990114249629005}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -195,7 +213,7 @@ MonoBehaviour:
   Path: event:/Music/Gameplay Music 2
   guid: b70aa7ab4ea7874eaf8ecabf519e285a
   Banks:
-  - {fileID: -2535922381295000742}
+  - {fileID: 3423990114249629005}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -218,7 +236,7 @@ MonoBehaviour:
   Path: event:/Music/Gameplay Music 1
   guid: 4c2fd6fca333594c9483c1bb9e7651f9
   Banks:
-  - {fileID: -2535922381295000742}
+  - {fileID: 3423990114249629005}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -241,7 +259,7 @@ MonoBehaviour:
   Path: event:/SFX/Turtle Squeal
   guid: 6d0d5fb7637ad84384db1e6a30f629da
   Banks:
-  - {fileID: -2535922381295000742}
+  - {fileID: 3423990114249629005}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -264,7 +282,7 @@ MonoBehaviour:
   Path: event:/Music/One Last Turtle
   guid: 21079fb9cf9a8443afc233c99c318ef8
   Banks:
-  - {fileID: -2535922381295000742}
+  - {fileID: 3423990114249629005}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -287,7 +305,7 @@ MonoBehaviour:
   Path: event:/Music/Main Menu
   guid: 4f36d8bec5f9c24bb22bd9dd304aa184
   Banks:
-  - {fileID: -2535922381295000742}
+  - {fileID: 3423990114249629005}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
