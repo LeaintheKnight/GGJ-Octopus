@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5905047422721342815}
   - component: {fileID: 5905047422721342814}
-  - component: {fileID: 7800263694387696331}
   - component: {fileID: -945779159386886930}
   - component: {fileID: 2837988370257290672}
-  - component: {fileID: -1034528301079928294}
+  - component: {fileID: -1102127607240453811}
+  - component: {fileID: 6846052577598776948}
   m_Layer: 0
   m_Name: Cigarette
   m_TagString: trash
@@ -85,20 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7800263694387696331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5905047422721342801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8fba3a17466dfb4f95adf9c8eb99b72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amplitude: 0.1
-  frequency: 0.2
 --- !u!114 &-945779159386886930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 1
 --- !u!54 &2837988370257290672
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -129,8 +116,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &-1034528301079928294
-CapsuleCollider:
+--- !u!114 &-1102127607240453811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5905047422721342801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d971b05b9d239b4eaa95a99d5adee8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitude: 0.1
+  frequency: 0.2
+--- !u!135 &6846052577598776948
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -139,7 +140,6 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.05
-  m_Height: 0.7
-  m_Direction: 1
-  m_Center: {x: 0.015, y: -0.11, z: 0}
+  serializedVersion: 2
+  m_Radius: 0.15
+  m_Center: {x: 0, y: 0, z: 0}
