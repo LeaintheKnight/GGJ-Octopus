@@ -9,11 +9,13 @@ public class character : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    babies.Add(new Vector3(0, -0.25f, -1));   
-    babies.Add(new Vector3(0.2f, -0.25f, -1f));   
-    babies.Add(new Vector3(-0.2f, -0.25f, -1f));   
-    babies.Add(new Vector3(0.15f, -0.4f, -1f));   
-    babies.Add(new Vector3(-0.15f, 0.4f, -1f));   
+    babies.Add(new Vector3(0, -0.25f, -1).normalized);
+    babies.Add(new Vector3(0.2f, -0.25f, -1f).normalized);
+    babies.Add(new Vector3(-0.2f, -0.25f, -1f).normalized); 
+
+    babies.Add(new Vector3(0,-0.4f, -1f).normalized);    
+    babies.Add(new Vector3(0.2f, -0.4f, -1f).normalized);   
+    babies.Add(new Vector3(-0.2f, -0.4f, -1f).normalized);   
 
     }
     // Update is called once per frame
@@ -28,10 +30,9 @@ public class character : MonoBehaviour
         }
         if(other.gameObject.tag == "babyTurtle"){
             Destroy(other.gameObject);
-            GameManager.instance.collectTurtle();
             Instantiate (prefab, transform);
-            gameObject.transform.GetChild(GameManager.instance.getTurtles()).transform.localPosition = babies[GameManager.instance.getTurtles()];
-            //childObject.transform.parent.position = gameObject.transform.position - new Vector3(0,0,1);
+            gameObject.transform.GetChild(GameManager.instance.getTurtles()+1).transform.localPosition = babies[GameManager.instance.getTurtles()];
+            GameManager.instance.collectTurtle();
         }       
     }
 }
