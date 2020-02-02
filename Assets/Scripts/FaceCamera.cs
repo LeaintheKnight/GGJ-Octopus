@@ -6,7 +6,10 @@ public class FaceCamera : MonoBehaviour
 {
     [SerializeField] string objectStateName = "None";
     [SerializeField] bool isAnimated = true;
+    [SerializeField] bool randomizeZRotation = false;
     private Animator objectAnimator;
+
+    Quaternion zRot = Quaternion.identity;
 
     void Awake()
     {
@@ -16,7 +19,7 @@ public class FaceCamera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(isAnimated)
+        if (isAnimated)
         {
             objectAnimator = this.gameObject.GetComponent<Animator>();
             if (objectAnimator != null)
@@ -29,12 +32,21 @@ public class FaceCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.rotation = Camera.main.transform.rotation;
+        transform.rotation = Camera.main.transform.rotation * zRot;
     }
 
     void OnBecameVisible()
     {
         enabled = true;
+
+        if (randomizeZRotation)
+        {
+            zRot = Quaternion.Euler(0, 0, Random.Range(0, 360f));
+        }
+        else
+        {
+            zRot = Quaternion.identity;
+        }
     }
 
     void OnBecameInvisible()
