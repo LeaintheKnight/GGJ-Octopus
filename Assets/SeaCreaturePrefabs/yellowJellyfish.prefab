@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4201207612463527581}
   - component: {fileID: 4201207612463527582}
   - component: {fileID: 4201207612463527580}
+  - component: {fileID: 984139795}
+  - component: {fileID: 984139797}
   m_Layer: 0
   m_Name: yellowJellyfish
   m_TagString: Untagged
@@ -101,3 +103,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &984139795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4201207612463527578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6379c459f3bf8df46ac24681c9a5c90e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectStateName: Idle
+  isAnimated: 1
+--- !u!114 &984139797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4201207612463527578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64980d786319ca459a550d9c349985f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpeed: 0.025
+  deceleration: 0.0002
+  descentSpeed: 0.003
