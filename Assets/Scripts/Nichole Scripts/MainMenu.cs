@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         GetComponent<FMODUnity.StudioEventEmitter>().Play();
-        SceneManager.LoadScene("working Project");
+        SceneManager.LoadScene("MapTest");
     }
 
     public void goToCredits()
