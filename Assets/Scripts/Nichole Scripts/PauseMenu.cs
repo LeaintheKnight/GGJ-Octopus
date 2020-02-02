@@ -36,13 +36,11 @@ public class PauseMenu : MonoBehaviour
 
     public void goToMainMenu()
     {
-        Debug.Log("Going to main menu ...");
-        //SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void quitGame()
     {
-        Debug.Log("Quit");
         Application.Quit();
     }
 }
