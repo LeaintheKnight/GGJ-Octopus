@@ -33,13 +33,14 @@ public class SwimmingMovementButBetter : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        if (transform.position == goToPosition[movePoint])
+        if ((transform.position - goToPosition[movePoint]).sqrMagnitude < 0.1f)
         {
             movePoint = (movePoint + 1) % goToPosition.Length;
         }
-        transform.position = Vector3.MoveTowards(transform.position, goToPosition[movePoint], moveSpeed);
+
+        transform.position = Vector3.MoveTowards(transform.position, goToPosition[movePoint], moveSpeed * Time.deltaTime * 60);
 
         if (whaleSprite != null && whaleSprite.isVisible && transform.position != previousPosition)
         {
