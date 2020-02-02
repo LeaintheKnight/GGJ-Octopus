@@ -31,5 +31,8 @@ public class CharacterMvmt : MonoBehaviour
         else if(Input.GetKey(KeyCode.D)){
             transform.position = transform.position + Camera.main.transform.right * Time.deltaTime;
         }
+        else if(Input.GetKey(KeyCode.Space)){
+            transform.position = transform.position + new Vector3(0,1,0).normalized;
+        }
     }
 }
