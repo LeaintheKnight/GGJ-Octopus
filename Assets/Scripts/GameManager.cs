@@ -18,29 +18,13 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-//        maxNumberOfTurtles = GameObject.FindGameObjectsWithTag("babyTurtle").Length;
-  //      maxTrash = GameObject.FindGameObjectsWithTag("trash").Length;
+        maxNumberOfTurtles = GameObject.FindGameObjectsWithTag("babyTurtle").Length;
+        maxTrash = GameObject.FindGameObjectsWithTag("trash").Length;
     }
 
     // Update is called once per frame
     void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            turtleDied(0);
-        }
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            babyTutrleStatus[0] = 1;
-        }
-        else if (Input.GetKeyDown(KeyCode.W))
-        {
-            babyTutrleStatus[0] = 0;
-        }
-        foreach (int i in babyTutrleStatus)
-        {
-            Debug.Log(i);
-        }
+    { 
 
     }
     public void collectTrash() {
