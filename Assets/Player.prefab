@@ -146,4 +146,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1f8bc6dd8b1fc742b52c873c4a2218e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  distance: 5
+  upSpeed: 0.0001
