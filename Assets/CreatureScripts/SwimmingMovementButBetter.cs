@@ -41,7 +41,7 @@ public class SwimmingMovementButBetter : MonoBehaviour
         }
         transform.position = Vector3.MoveTowards(transform.position, goToPosition[movePoint], moveSpeed);
 
-        if (whaleSprite != null && transform.position != previousPosition)
+        if (whaleSprite != null && whaleSprite.isVisible && transform.position != previousPosition)
         {
             whaleSprite.flipX = flipX ^ Vector3.Cross(Camera.main.transform.rotation * Vector3.forward, transform.position - previousPosition).y < 0;
             previousPosition = transform.position;
