@@ -11,7 +11,6 @@ public class CameraRotation : MonoBehaviour
 
     [SerializeField] float horizontalRotation = 0;
     [SerializeField] float verticalRotation = 0;
-
     void Awake()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -25,7 +24,10 @@ public class CameraRotation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        RenderSettings.fog = true;
+        RenderSettings.fogMode = FogMode.Exponential;
+        RenderSettings.fogDensity = 0.1f;
+        RenderSettings.fogColor = new Color(0.1f, 0.3f, 0.4f, 1.0f);
     }
 
     // Update is called once per frame

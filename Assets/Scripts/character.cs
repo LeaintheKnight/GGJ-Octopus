@@ -23,6 +23,7 @@ public class character : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other) {
         if(other.gameObject.tag == "trash"){
+            Destroy(other.gameObject);
             GameManager.instance.collectTrash();
         }
         if(other.gameObject.tag == "babyTurtle"){

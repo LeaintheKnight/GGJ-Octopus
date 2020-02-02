@@ -150,6 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: yellowManatee
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!114 &24023097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,6 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!114 &31430419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Seahorse2
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!114 &44509943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,6 +195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Worm
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!114 &55992722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,6 +210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!114 &63692968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Idle
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!114 &63692974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,6 +506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!1 &217515571
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,6 +836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Porpoise2
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!1 &265580595
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,7 +1054,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Save the Turtles
+  m_text: sea turtle rescue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3da64d70f40a5464f9c58c179a82bcce, type: 2}
   m_sharedMaterial: {fileID: -4903272586721624551, guid: 3da64d70f40a5464f9c58c179a82bcce,
@@ -1116,7 +1124,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 290203634}
-    characterCount: 16
+    characterCount: 17
     spriteCount: 0
     spaceCount: 2
     wordCount: 3
@@ -1278,6 +1286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Manatee
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!114 &331588101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1307,6 +1316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!114 &349956961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1594,6 +1604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: 
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!114 &521635979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1608,6 +1619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!114 &523819271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1622,6 +1634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: pinkManatee
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!114 &557111047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1636,6 +1649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!1 &562085782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1887,6 +1901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!1 &588109826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2076,6 +2091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!1 &632644594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2250,6 +2266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!1 &685071247
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,6 +2521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!1 &782537206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2614,6 +2632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!114 &839397254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2643,6 +2662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: sideCrab
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!1 &893073853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2945,6 +2965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Grass1
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!4 &1140301840
 Transform:
   m_ObjectHideFlags: 0
@@ -2989,6 +3010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!114 &1145720140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3003,6 +3025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!1 &1147698020
 GameObject:
   m_ObjectHideFlags: 0
@@ -3062,6 +3085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Seahorse2
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!114 &1298611189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3076,6 +3100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: blueJellyfish
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!114 &1326125144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3134,6 +3159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!114 &1421941479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3163,6 +3189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!114 &1439957503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3177,6 +3204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Grass2
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!114 &1448880837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3191,6 +3219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!1 &1450329304
 GameObject:
   m_ObjectHideFlags: 0
@@ -3246,7 +3275,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Save the Turtles
+  m_text: sea turtle rescue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3da64d70f40a5464f9c58c179a82bcce, type: 2}
   m_sharedMaterial: {fileID: -4903272586721624551, guid: 3da64d70f40a5464f9c58c179a82bcce,
@@ -3316,7 +3345,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1450329306}
-    characterCount: 16
+    characterCount: 17
     spriteCount: 0
     spaceCount: 2
     wordCount: 3
@@ -3361,6 +3390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!4 &1499943028
 Transform:
   m_ObjectHideFlags: 0
@@ -3405,6 +3435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!114 &1528009107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3419,6 +3450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!1 &1561813689
 GameObject:
   m_ObjectHideFlags: 0
@@ -3550,6 +3582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Seal
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!114 &1622384929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3564,6 +3597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Porpoise1
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!1 &1629258470
 GameObject:
   m_ObjectHideFlags: 0
@@ -3694,6 +3728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Angler
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!1 &1660892310
 GameObject:
   m_ObjectHideFlags: 0
@@ -3870,6 +3905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!1 &1703822688
 GameObject:
   m_ObjectHideFlags: 0
@@ -4361,6 +4397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: None
   isAnimated: 0
+  randomizeZRotation: 0
 --- !u!114 &1860602863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4491,6 +4528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: pinkJellyfish
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!114 &2049080337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4505,6 +4543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: bigCrab
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!1 &2061159482
 GameObject:
   m_ObjectHideFlags: 0
@@ -9400,6 +9439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: yellowCrab
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!1 &6320362634669562570
 GameObject:
   m_ObjectHideFlags: 0
@@ -11716,6 +11756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: whale
   isAnimated: 1
+  randomizeZRotation: 0
 --- !u!4 &9152164570310124524
 Transform:
   m_ObjectHideFlags: 0
