@@ -34,14 +34,18 @@ public class PauseMenu : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         screen.SetActive(false);
+        Cursor.visible = false;
         Time.timeScale = 1f;
         isRunning = true;
-        Cursor.visible = false;
+        
     }
 
     public void goToMainMenu()
     {
         Time.timeScale = 1f;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        screen.SetActive(false);
         SceneManager.LoadScene("MainMenu");
     }
 
