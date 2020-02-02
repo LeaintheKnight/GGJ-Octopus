@@ -6,37 +6,39 @@ public class CharacterMvmt : MonoBehaviour
 {
     [SerializeField] int distance = 5;
     [SerializeField] float upSpeed;
+
+    Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
-
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Move();
     }
 
     void Move(){
         if (Input.GetKey(KeyCode.W)){
-            transform.position += Camera.main.transform.forward * distance * Time.deltaTime;
+            rb.position += Camera.main.transform.forward * distance * Time.fixedDeltaTime;
         }
         if(Input.GetKey(KeyCode.A)){
-            transform.position -= Camera.main.transform.right * Time.deltaTime;
+            rb.position -= Camera.main.transform.right * Time.fixedDeltaTime;
         }
         if(Input.GetKey(KeyCode.S)){
-            transform.position -= Camera.main.transform.forward * distance * Time.deltaTime;
+            rb.position -= Camera.main.transform.forward * distance * Time.fixedDeltaTime;
         }
         if(Input.GetKey(KeyCode.D)){
-            transform.position += Camera.main.transform.right * Time.deltaTime;
+            rb.position += Camera.main.transform.right * Time.fixedDeltaTime;
         }
         if(Input.GetKey(KeyCode.Space)){
-            transform.position += Vector3.up.normalized * Time.deltaTime;
+            rb.position += Vector3.up.normalized * Time.fixedDeltaTime;
         }
         if(Input.GetKey(KeyCode.LeftShift))
         {
-            transform.position -= Vector3.up.normalized * Time.deltaTime;
+            rb.position -= Vector3.up.normalized * Time.fixedDeltaTime;
         }
     }
 }

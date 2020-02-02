@@ -16,7 +16,7 @@ public class CameraRotation : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         transform.SetParent(attachTo);
-        transform.localPosition = transform.rotation * Vector3.back * distanceBehind;
+        transform.localPosition = Vector3.back * distanceBehind;
     }
 
     // Start is called before the first frame update
@@ -39,6 +39,17 @@ public class CameraRotation : MonoBehaviour
             verticalRotation = Mathf.Clamp(verticalRotation, -verticalRotationLimit, verticalRotationLimit);
 
             attachTo.eulerAngles = new Vector3(verticalRotation, horizontalRotation);
+
+            RaycastHit hit;
+
+            if (Physics.Raycast(attachTo.position, attachTo.rotation * Vector3.back, out hit, distanceBehind, 1 << 8, QueryTriggerInteraction.UseGlobal))
+            {
+                transform.localPosition = Vector3.back * hit.distance;
+            }
+            else
+            {
+                transform.localPosition = Vector3.back * distanceBehind;
+            }
         }
     }
 }
