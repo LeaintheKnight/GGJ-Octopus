@@ -22,25 +22,32 @@ public class PauseMenu : MonoBehaviour
     }
     public void pauseGame()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         screen.SetActive(true);
         Time.timeScale = 0f;
         isRunning = false;
+        
     }
 
     public void resumeGame()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         screen.SetActive(false);
         Time.timeScale = 1f;
         isRunning = true;
+        Cursor.visible = false;
     }
 
     public void goToMainMenu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
 
     public void quitGame()
     {
+        Debug.Log("Quit");
         Application.Quit();
     }
 }

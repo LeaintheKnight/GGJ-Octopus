@@ -16,5 +16,8 @@ public class BabySeaTurtle : MonoBehaviour
             GameManager.instance.turtleDied(ID);
             Destroy(this);
         }
+        else if(other.gameObject.tag == "Player"){
+            Debug.Log("Found the player");
+        }
     }
 }
