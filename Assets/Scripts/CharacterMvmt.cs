@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CharacterMvmt : MonoBehaviour
 {
-    public Camera cam;
-    int distance = 5;
+    [SerializeField] int distance = 5;
+    [SerializeField] float upSpeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,19 +20,23 @@ public class CharacterMvmt : MonoBehaviour
 
     void Move(){
         if (Input.GetKey(KeyCode.W)){
-            transform.position = transform.position + Camera.main.transform.forward * distance * Time.deltaTime;
+            transform.position += Camera.main.transform.forward * distance * Time.deltaTime;
         }
-        else if(Input.GetKey(KeyCode.A)){
-            transform.position = transform.position - Camera.main.transform.right * Time.deltaTime;
+        if(Input.GetKey(KeyCode.A)){
+            transform.position -= Camera.main.transform.right * Time.deltaTime;
         }
-        else if(Input.GetKey(KeyCode.S)){
-            transform.position = transform.position - Camera.main.transform.forward * distance * Time.deltaTime;
+        if(Input.GetKey(KeyCode.S)){
+            transform.position -= Camera.main.transform.forward * distance * Time.deltaTime;
         }
-        else if(Input.GetKey(KeyCode.D)){
-            transform.position = transform.position + Camera.main.transform.right * Time.deltaTime;
+        if(Input.GetKey(KeyCode.D)){
+            transform.position += Camera.main.transform.right * Time.deltaTime;
         }
-        else if(Input.GetKey(KeyCode.Space)){
-            transform.position = transform.position + new Vector3(0,1,0).normalized;
+        if(Input.GetKey(KeyCode.Space)){
+            transform.position += Vector3.up.normalized * Time.deltaTime;
+        }
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            transform.position -= Vector3.up.normalized * Time.deltaTime;
         }
     }
 }
