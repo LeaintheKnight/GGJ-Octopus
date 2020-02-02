@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7611941168412279119}
   - component: {fileID: 7611941168412279118}
   - component: {fileID: 1081828811}
+  - component: {fileID: 3429616261020650983}
   m_Layer: 0
   m_Name: PinkJellyfish
   m_TagString: Untagged
@@ -117,3 +118,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: pinkJellyfish
   isAnimated: 1
+--- !u!114 &3429616261020650983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7611941168412279117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64980d786319ca459a550d9c349985f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpeed: 0.025
+  deceleration: 0.0002
+  descentSpeed: 0.003

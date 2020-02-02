@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player : MonoBehaviour
+public class character : MonoBehaviour
 {
     List<GameObject> babies = new List<GameObject>();
     // Start is called before the first frame update
@@ -10,7 +10,6 @@ public class player : MonoBehaviour
     {
         
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -20,12 +19,9 @@ public class player : MonoBehaviour
         if(other.gameObject.tag == "trash"){
             GameManager.instance.collectTrash();
         }
-
         if(other.gameObject.tag == "babyTurtle"){
             GameManager.instance.collectTurtle();
-            babies.Add(other.gameObject);
+            babies.Add(gameObject);
         }    
     }
-
-
 }
