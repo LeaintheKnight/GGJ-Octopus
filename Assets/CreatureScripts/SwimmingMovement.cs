@@ -13,6 +13,8 @@ public class SwimmingMovement : MonoBehaviour
     private bool movingFoward = true;
     Vector3 previousPosition;
 
+    [SerializeField] bool flipX;
+
     private void Awake()
     {
         whaleSprite = GetComponent<SpriteRenderer>();
@@ -49,7 +51,7 @@ public class SwimmingMovement : MonoBehaviour
 
         if (whaleSprite != null && transform.position != previousPosition)
         {
-            whaleSprite.flipX = Vector3.Cross(Camera.main.transform.rotation * Vector3.forward, transform.position - previousPosition).y < 0;
+            whaleSprite.flipX = flipX ^ Vector3.Cross(Camera.main.transform.rotation * Vector3.forward, transform.position - previousPosition).y < 0;
             previousPosition = transform.position;
         }
     }
