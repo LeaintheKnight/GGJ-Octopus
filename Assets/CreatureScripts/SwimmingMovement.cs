@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class SwimmingMovement : MonoBehaviour
 {
-    [SerializeField] Transform goToPosition;
-    [SerializeField] Transform startPosition;
+    [SerializeField] Transform goTo;
+    private Vector3 startPosition;
+    private Vector3 goToPosition;
     [SerializeField] float moveSpeed;
+    
     private SpriteRenderer whaleSprite;
     private bool movingFoward = true;
     Vector3 previousPosition;
@@ -19,6 +21,9 @@ public class SwimmingMovement : MonoBehaviour
     void Start()
     {
         previousPosition = transform.position;
+        startPosition = this.gameObject.transform.position;
+        goToPosition = goTo.transform.position;
+        Destroy(goTo);
     }
 
     // Update is called once per frame
@@ -26,20 +31,20 @@ public class SwimmingMovement : MonoBehaviour
     {
         if(movingFoward)
         {
-            if (this.gameObject.transform.position == goToPosition.transform.position)
+            if (this.gameObject.transform.position == goToPosition)
             {
                 movingFoward = false;
             }
             else
-            this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, goToPosition.transform.position, moveSpeed);
+            this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, goToPosition, moveSpeed);
         }
         else
         {
-            if(this.gameObject.transform.position == startPosition.transform.position)
+            if(this.gameObject.transform.position == startPosition)
             {
                 movingFoward = true;
             }
-            this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, startPosition.transform.position, moveSpeed);
+            this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, startPosition, moveSpeed);
         }
 
         if (whaleSprite != null && transform.position != previousPosition)
