@@ -79,4 +79,9 @@ public class GameManager : MonoBehaviour
         babyTutrleStatus[ID] = 2;
     }
 
+    public void turtleFound(int ID)
+    {
+        babyTutrleStatus[ID] = 1;
+    }
+
 }
