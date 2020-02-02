@@ -22,26 +22,29 @@ public class PauseMenu : MonoBehaviour
     }
     public void pauseGame()
     {
+        GetComponent<FMODUnity.StudioEventEmitter>().Play();
+
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         screen.SetActive(true);
         Time.timeScale = 0f;
         isRunning = false;
-        
     }
 
     public void resumeGame()
     {
+        GetComponent<FMODUnity.StudioEventEmitter>().Play();
         Cursor.lockState = CursorLockMode.Locked;
         screen.SetActive(false);
         Cursor.visible = false;
         Time.timeScale = 1f;
         isRunning = true;
-        
     }
 
     public void goToMainMenu()
     {
+        GetComponent<FMODUnity.StudioEventEmitter>().Play();
+
         Time.timeScale = 1f;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -51,6 +54,7 @@ public class PauseMenu : MonoBehaviour
 
     public void quitGame()
     {
+        GetComponent<FMODUnity.StudioEventEmitter>().Play();
         Debug.Log("Quit");
         Application.Quit();
     }
