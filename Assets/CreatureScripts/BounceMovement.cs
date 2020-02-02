@@ -8,23 +8,29 @@ public class BounceMovement : MonoBehaviour
     [SerializeField] float deceleration = 0.0002f;
     [SerializeField] float descentSpeed = 0.003f;
 
+    int delay;
+
     float yVel = 0;
     float initY;
     // Start is called before the first frame update
     void Start()
     {
+        delay = Random.Range(0, 600);
         initY = transform.position.y;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < initY)
+        if (delay-- <= 0)
         {
-            yVel = initialSpeed;
-        }
+            if (transform.position.y < initY)
+            {
+                yVel = initialSpeed * Random.Range(0.9f, 1.1f);
+            }
 
-        transform.Translate(0, yVel, 0, Space.World);
-        yVel = Mathf.Max(yVel - deceleration, -descentSpeed);
+            transform.Translate(0, yVel, 0, Space.World);
+            yVel = Mathf.Max(yVel - deceleration, -descentSpeed);
+        }
     }
 }
