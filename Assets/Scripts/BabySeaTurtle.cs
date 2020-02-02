@@ -14,7 +14,7 @@ public class BabySeaTurtle : MonoBehaviour
         if(other.gameObject.tag == "trash"){
             GameManager.instance.turtleDied(ID);
             GetComponent<FMODUnity.StudioEventEmitter>().Play();
-            Destroy(this);
+            Destroy(this.gameObject);
         }
         else if (other.gameObject.tag == "Player")
         {
