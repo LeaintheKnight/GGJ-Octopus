@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: -6287251687033568874
     second: PlayerSwim_2
+  - first:
+      213: -417263106868492095
+    second: PlayerSwim_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -109,7 +112,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -130,7 +133,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,14 +154,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69183e4e6e13fb8a0800000000000000
-      internalID: -6287251687033568874
+      spriteID: 1c84a314a65953af0800000000000000
+      internalID: -417263106868492095
       vertices: []
       indices: 
       edges: []

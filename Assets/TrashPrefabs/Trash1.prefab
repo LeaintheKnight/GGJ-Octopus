@@ -982,6 +982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5300686867664681518}
   - component: {fileID: 802455987786748532}
+  - component: {fileID: 430541784771823489}
   m_Layer: 0
   m_Name: Trash1
   m_TagString: Untagged
@@ -1068,6 +1069,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &430541784771823489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7195502878945175166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6379c459f3bf8df46ac24681c9a5c90e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectStateName: None
+  isAnimated: 0
 --- !u!1 &7370936302882076697
 GameObject:
   m_ObjectHideFlags: 0

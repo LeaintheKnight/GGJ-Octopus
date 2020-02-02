@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5905047422721342815}
   - component: {fileID: 5905047422721342814}
   - component: {fileID: 7800263694387696331}
+  - component: {fileID: -945779159386886930}
   m_Layer: 0
   m_Name: Cigarette
   m_TagString: Untagged
@@ -96,3 +97,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amplitude: 0.1
   frequency: 0.2
+--- !u!114 &-945779159386886930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5905047422721342801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6379c459f3bf8df46ac24681c9a5c90e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectStateName: None
+  isAnimated: 0
