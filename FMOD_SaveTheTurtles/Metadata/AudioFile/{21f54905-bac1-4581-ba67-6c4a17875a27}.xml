@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{21f54905-bac1-4581-ba67-6c4a17875a27}">
+		<property name="assetPath">
+			<value>Turtle Squeal.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.995374149659864</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{17e459f0-79c8-476d-b1c8-8156b1a07f7e}</destination>
+		</relationship>
+	</object>
+</objects>
