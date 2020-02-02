@@ -5,9 +5,7 @@ using UnityEngine;
 public class BabySeaTurtle : MonoBehaviour
 {
     public int speed = 5;
-    private void Update() {
-        
-    } 
+    [SerializeField] private int ID; // Keep number between 0 - 5
 
     void Move(){
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
@@ -15,7 +13,7 @@ public class BabySeaTurtle : MonoBehaviour
 
     private void OnCollisionEnter(Collision other) {
         if(other.gameObject.tag == "trash"){
-            GameManager.instance.turtleDied();
+            GameManager.instance.turtleDied(ID);
             Destroy(this);
         }
     }

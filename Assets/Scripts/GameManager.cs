@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     private int numberOfTurtlesAlive;
     private int maxNumberOfTurtles;
     private int maxTrash;
+    public int[] babyTutrleStatus = new int[6]; //0 uncollected, 1 colledted, 2 dead
     public static GameManager instance;
 
     private void Awake() {
@@ -17,33 +18,49 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        maxNumberOfTurtles = GameObject.FindGameObjectsWithTag("babyTurtle").Length;
-        maxTrash = GameObject.FindGameObjectsWithTag("trash").Length;
+//        maxNumberOfTurtles = GameObject.FindGameObjectsWithTag("babyTurtle").Length;
+  //      maxTrash = GameObject.FindGameObjectsWithTag("trash").Length;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            turtleDied(0);
+        }
+        else if (Input.GetKeyDown(KeyCode.S))
+        {
+            babyTutrleStatus[0] = 1;
+        }
+        else if (Input.GetKeyDown(KeyCode.W))
+        {
+            babyTutrleStatus[0] = 0;
+        }
+        foreach (int i in babyTutrleStatus)
+        {
+            Debug.Log(i);
+        }
+
     }
-    public void collectTrash(){
+    public void collectTrash() {
         trashCollected += 1;
     }
-    public void collectTurtle(){
+    public void collectTurtle() {
         numberOfTurtlesSaved += 1;
     }
-    void gameOver(){
+    void gameOver() {
         //Failure
-        if(numberOfTurtlesSaved == 0 && numberOfTurtlesAlive == 0 && numberOfTurtlesLeft() == 0){
+        if (numberOfTurtlesSaved == 0 && numberOfTurtlesAlive == 0 && numberOfTurtlesLeft() == 0) {
 
         }
         //Success
-        else if(numberOfTurtlesSaved > 0 && numberOfTurtlesAlive > 0 && numberOfTurtlesLeft() == 0){
+        else if (numberOfTurtlesSaved > 0 && numberOfTurtlesAlive > 0 && numberOfTurtlesLeft() == 0) {
 
         }
     }
 
-    int numberOfTurtlesLeft(){
+    int numberOfTurtlesLeft() {
         return GameObject.FindGameObjectsWithTag("babyTurtle").Length;
     }
 
@@ -71,7 +88,9 @@ public class GameManager : MonoBehaviour
     {
         return maxNumberOfTurtles;
     }
-    public void turtleDied(){
-        numberOfTurtlesAlive -= 1;
+
+    public void turtleDied(int ID) {
+        babyTutrleStatus[ID] = 2;
     }
+
 }
