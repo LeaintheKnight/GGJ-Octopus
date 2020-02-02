@@ -13,7 +13,8 @@ public class BabySeaTurtle : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if(other.gameObject.tag == "trash"){
             GameManager.instance.turtleDied(ID);
-            Destroy(this);
+            GetComponent<FMODUnity.StudioEventEmitter>().Play();
+            Destroy(this.gameObject);
         }
         else if (other.gameObject.tag == "Player")
         {
