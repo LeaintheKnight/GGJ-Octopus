@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class BabySeaTurtle : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    public int speed = 5;
+    private void Update() {
         
+    } 
+
+    void Move(){
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnCollisionEnter(Collision other) {
         if(other.gameObject.tag == "trash"){
             GameManager.instance.turtleDied();
