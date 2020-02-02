@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("working Project");
     }
 
     public void goToCredits()
