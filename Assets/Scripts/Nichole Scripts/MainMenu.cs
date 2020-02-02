@@ -7,8 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void playGame()
     {
-        Debug.Log("Play");
-        //SceneManager.LoadScene();
+        SceneManager.LoadScene("JarenScene");
     }
 
     public void goToCredits()
