@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 5
-  upSpeed: 0.0001
+  upSpeed: 0.0003
 --- !u!135 &4358342144022365381
 SphereCollider:
   m_ObjectHideFlags: 0
