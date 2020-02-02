@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Nichole Scenes/Credits.unity
     guid: c0e2e4b82a3e3d14cba25c2a97755d02
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 463e1b8568a26a4409971c794d5b65b5
+    path: Assets/Scenes/Finished Project/working Project.unity
+    guid: 402f3c821fa898f45a27a509b32a399b
   m_configObjects: {}

@@ -15,8 +15,9 @@ public class BabySeaTurtle : MonoBehaviour
             GameManager.instance.turtleDied(ID);
             Destroy(this);
         }
-    }
-    int getID(){
-        return ID;
+        else if (other.gameObject.tag == "Player")
+        {
+            GameManager.instance.turtleFound(ID);
+        }
     }
 }
