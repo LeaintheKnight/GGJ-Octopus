@@ -33,7 +33,7 @@ public class SwimmingMovementButBetter : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (transform.position == goToPosition[movePoint])
         {

@@ -17,11 +17,11 @@ public class WavyMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector3 position = transform.position;
         position.y = initY + Mathf.Sin(time * Mathf.Deg2Rad) * amplitude;
         transform.position = position;
-        time += Time.deltaTime * frequency * 360;
+        time += Time.fixedDeltaTime * frequency * 360;
     }
 }

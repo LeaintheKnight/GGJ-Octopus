@@ -30,7 +30,7 @@ public class GroundMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (movingFoward)
         {
