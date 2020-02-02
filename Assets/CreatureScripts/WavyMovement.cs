@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class WavyMovement : MonoBehaviour
 {
-    [SerializeField] float amplitude = 0.1f;
-    [SerializeField] float frequency = 0.2f;
+    [SerializeField] float amplitude = 0.15f;
+    [SerializeField] float frequency = 0.3f;
 
     float time = 0;
     float initY = 0;
