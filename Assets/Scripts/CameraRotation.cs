@@ -38,8 +38,7 @@ public class CameraRotation : MonoBehaviour
 
             verticalRotation = Mathf.Clamp(verticalRotation, -verticalRotationLimit, verticalRotationLimit);
 
-            transform.eulerAngles = new Vector3(verticalRotation, horizontalRotation);
-            attachTo.rotation = transform.rotation;
+            attachTo.eulerAngles = new Vector3(verticalRotation, horizontalRotation);
         }
     }
 }
