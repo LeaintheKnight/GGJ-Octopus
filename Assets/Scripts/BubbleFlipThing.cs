@@ -20,7 +20,7 @@ public class BubbleFlipThing : MonoBehaviour
     void Update()
     {
         Vector3 localPosition = transform.localPosition;
-        localPosition.x = whale.flipX ? x : -x;
+        localPosition.x = whale.flipX ? -x : x;
         thisOne.flipX = whale.flipX;
         transform.localPosition = localPosition;
     }

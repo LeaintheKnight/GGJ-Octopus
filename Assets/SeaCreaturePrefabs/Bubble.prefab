@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 698085860371753145}
   - component: {fileID: 698085860371753144}
   - component: {fileID: 2100392987}
-  - component: {fileID: 1958679453}
   - component: {fileID: 6054775361495969288}
+  - component: {fileID: 574920772678101275}
   m_Layer: 0
   m_Name: Bubble
   m_TagString: Untagged
@@ -118,20 +118,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStateName: Bubble
   isAnimated: 1
---- !u!114 &1958679453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 698085860371753151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8fba3a17466dfb4f95adf9c8eb99b72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amplitude: 0.1
-  frequency: 0.2
 --- !u!114 &6054775361495969288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,3 +132,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amplitude: 0.3
   frequency: 0.2
+--- !u!114 &574920772678101275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698085860371753151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 398e2a6b59022964682cd905ca21b8c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

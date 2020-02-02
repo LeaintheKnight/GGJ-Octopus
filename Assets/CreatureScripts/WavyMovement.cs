@@ -9,6 +9,12 @@ public class WavyMovement : MonoBehaviour
 
     float time = 0;
     float initY = 0;
+
+    void Awake()
+    {
+        enabled = false;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,5 +29,15 @@ public class WavyMovement : MonoBehaviour
         position.y = initY + Mathf.Sin(time * Mathf.Deg2Rad) * amplitude;
         transform.position = position;
         time += Time.fixedDeltaTime * frequency * 360;
+    }
+
+    void OnBecameVisible()
+    {
+        enabled = true;
+    }
+
+    void OnBecameInvisible()
+    {
+        enabled = false;
     }
 }
