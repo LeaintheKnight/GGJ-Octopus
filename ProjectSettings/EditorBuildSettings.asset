@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nichole Scenes/MainMenu.unity
     guid: ffb896d39c03ccc43a925de90c87559c
+  - enabled: 1
+    path: Assets/Scenes/JarenScene.unity
+    guid: 94f858492f63baf499d25db19caa2d10
   m_configObjects: {}
