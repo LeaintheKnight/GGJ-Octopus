@@ -10,14 +10,4 @@ public class BabySeaTurtle : MonoBehaviour
     void Move(){
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
-
-    private void OnCollisionEnter(Collision other) {
-        if(other.gameObject.tag == "trash"){
-            GameManager.instance.turtleDied(ID);
-            Destroy(this);
-        }
-        else if(other.gameObject.tag == "Player"){
-            Debug.Log("Found the player");
-        }
-    }
 }
