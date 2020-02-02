@@ -29,24 +29,24 @@ public class SwimmingMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         if(movingFoward)
         {
-            if (this.gameObject.transform.position == goToPosition)
+            if ((this.gameObject.transform.position - goToPosition).sqrMagnitude < 0.1f)
             {
                 movingFoward = false;
             }
             else
-            this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, goToPosition, moveSpeed);
+            this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, goToPosition, moveSpeed * Time.deltaTime * 60);
         }
         else
         {
-            if(this.gameObject.transform.position == startPosition)
+            if((this.gameObject.transform.position - startPosition).sqrMagnitude < 0.1f)
             {
                 movingFoward = true;
             }
-            this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, startPosition, moveSpeed);
+            this.gameObject.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, startPosition, moveSpeed * Time.deltaTime * 60);
         }
 
         if (whaleSprite != null && whaleSprite.isVisible && transform.position != previousPosition)
