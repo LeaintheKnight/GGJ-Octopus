@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     private int numberOfTurtlesAlive;
     private int maxNumberOfTurtles;
     private int maxTrash;
-    public bool victory = false;
+    public bool victory = true;
     public int[] babyTutrleStatus = new int[6]; //0 uncollected, 1 colledted, 2 dead
     public static GameManager instance;
 
