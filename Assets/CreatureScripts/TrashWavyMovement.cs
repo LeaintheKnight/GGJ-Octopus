@@ -14,7 +14,6 @@ public class TrashWavyMovement : MonoBehaviour
 
     void Awake()
     {
-        Destroy(gameObject);
         enabled = false;
         rb = GetComponent<Rigidbody>();
     }
