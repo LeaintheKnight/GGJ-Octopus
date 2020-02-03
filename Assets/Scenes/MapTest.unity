@@ -9325,7 +9325,8 @@ MonoBehaviour:
   - {fileID: 1051723427}
   - {fileID: 1707382408}
   - {fileID: 1913516617}
-  babyTurtle: {fileID: 0}
+  babyTurtle: {fileID: 6762649669435965319, guid: 7107c353d785bdf468b7d161ed6e8b8e,
+    type: 3}
 --- !u!114 &1775054247
 MonoBehaviour:
   m_ObjectHideFlags: 0
