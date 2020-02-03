@@ -4697,6 +4697,7 @@ GameObject:
   - component: {fileID: 1629258472}
   - component: {fileID: 1629258471}
   - component: {fileID: 1629258475}
+  - component: {fileID: 1629258476}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4797,6 +4798,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa4d8bcdbbff46e4680aaab2ed53d072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1629258476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629258470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Select
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1651036023
 GameObject:
   m_ObjectHideFlags: 0
@@ -5315,6 +5339,7 @@ GameObject:
   - component: {fileID: 1699299678}
   - component: {fileID: 1699299680}
   - component: {fileID: 1699299679}
+  - component: {fileID: 1699299681}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5336,14 +5361,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1699299679
-AudioListener:
+--- !u!114 &1699299679
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699299677}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Music/Sad Music
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!20 &1699299680
 Camera:
   m_ObjectHideFlags: 0
@@ -5387,6 +5427,19 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1699299681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699299677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
 --- !u!1 &1714331051
 GameObject:
   m_ObjectHideFlags: 0
