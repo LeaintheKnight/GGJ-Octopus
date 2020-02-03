@@ -5,7 +5,7 @@ using UnityEngine;
 public class endGame : MonoBehaviour
 {
     private void OnCollisionEnter(Collision other) {
-        if(collectedEnoughTrash() == true){
+        if(GameManager.instance.victory == true){
             gameObject.GetComponent<Rigidbody>().detectCollisions = false; 
         }
         else{
