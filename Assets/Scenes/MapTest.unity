@@ -854,6 +854,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e52f47197f4961240bf2290a11c06576, type: 3}
+--- !u!1 &223148816 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5110630153598289410, guid: e52f47197f4961240bf2290a11c06576,
+    type: 3}
+  m_PrefabInstance: {fileID: 223148815}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &223148817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223148816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Turtle Squeal
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 6.8
 --- !u!4 &228228277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5085489596034834640, guid: 674b2d454faeee049afdaf2a41cfe875,
@@ -1052,6 +1081,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e52f47197f4961240bf2290a11c06576, type: 3}
+--- !u!1 &284686879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5110630153598289410, guid: e52f47197f4961240bf2290a11c06576,
+    type: 3}
+  m_PrefabInstance: {fileID: 284686878}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &284686880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284686879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Turtle Squeal
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 6.8
 --- !u!4 &285040745 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2102193687634771273, guid: 9d52925207c439b439f56b6de4188d9f,
@@ -2033,6 +2091,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e52f47197f4961240bf2290a11c06576, type: 3}
+--- !u!1 &686694766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5110630153598289410, guid: e52f47197f4961240bf2290a11c06576,
+    type: 3}
+  m_PrefabInstance: {fileID: 686694765}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &686694767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686694766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Turtle Squeal
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 6.8
 --- !u!1001 &697654523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2420,6 +2507,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e52f47197f4961240bf2290a11c06576, type: 3}
+--- !u!1 &735696474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5110630153598289410, guid: e52f47197f4961240bf2290a11c06576,
+    type: 3}
+  m_PrefabInstance: {fileID: 735696473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &735696475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735696474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Turtle Squeal
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 6.8
 --- !u!4 &742662885 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5085489596034834640, guid: 674b2d454faeee049afdaf2a41cfe875,
@@ -4584,6 +4700,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e52f47197f4961240bf2290a11c06576, type: 3}
+--- !u!1 &1165352391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5110630153598289410, guid: e52f47197f4961240bf2290a11c06576,
+    type: 3}
+  m_PrefabInstance: {fileID: 1165352390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1165352392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165352391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Turtle Squeal
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 6.8
 --- !u!4 &1172855788 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7670965731622538644, guid: 831c70d4ccab123408a6f7ae666e9211,
@@ -8757,6 +8902,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e52f47197f4961240bf2290a11c06576, type: 3}
+--- !u!1 &1940669007 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5110630153598289410, guid: e52f47197f4961240bf2290a11c06576,
+    type: 3}
+  m_PrefabInstance: {fileID: 1940669006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1940669008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940669007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Turtle Squeal
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 6.8
 --- !u!4 &1944463465 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5085489596034834640, guid: 674b2d454faeee049afdaf2a41cfe875,
