@@ -23,11 +23,16 @@ public class character : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider other) {
-        if(other.gameObject.tag == "trash"){
-            Destroy(other.gameObject);
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "trash")
+        {
+            Destroy(collision.gameObject);
             GameManager.instance.collectTrash();
         }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
         if(other.gameObject.tag == "babyTurtle"){
             Destroy(other.gameObject);
             Instantiate (prefab, transform);
