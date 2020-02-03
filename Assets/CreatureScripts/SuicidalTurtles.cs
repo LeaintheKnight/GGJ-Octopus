@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class SuicidalTurtles : MonoBehaviour
 {
-    [SerializeField] float waitTimeMin = 5;
-    [SerializeField] float waitTimeMax = 10;
-    [SerializeField] float minSpeed = 1;
-    [SerializeField] float maxSpeed = 5;
+    [SerializeField] float waitTimeMin = 2.5f;
+    [SerializeField] float waitTimeMax = 7.5f;
+    [SerializeField] float minSpeed = 5;
+    [SerializeField] float maxSpeed = 10;
 
     Rigidbody rb;
     [SerializeField] float wait;

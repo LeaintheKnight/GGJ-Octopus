@@ -192,10 +192,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9447ba1c3f8bcb6438e7e457cd23a443, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTimeMin: 5
-  waitTimeMax: 10
-  minSpeed: 1
-  maxSpeed: 5
+  waitTimeMin: 2.5
+  waitTimeMax: 7.5
+  minSpeed: 5
+  maxSpeed: 10
   wait: 0
 --- !u!1001 &2464036253836196232
 PrefabInstance:
