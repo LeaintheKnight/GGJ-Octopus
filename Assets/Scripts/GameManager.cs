@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -7,9 +8,17 @@ public class GameManager : MonoBehaviour
     private int numberOfTurtlesAlive;
     private int maxNumberOfTurtles;
     private int maxTrash;
-    public bool victory = true;
+    public bool victory {
+        get
+        {
+            return GetSaved() + GetDied() == babyTutrleStatus.Length;
+        }
+    }
     public int[] babyTutrleStatus = new int[6]; //0 uncollected, 1 colledted, 2 dead
     public static GameManager instance;
+
+    int saved = 0;
+    int died = 0;
 
     private void Awake() {
         if (instance == null)
@@ -29,7 +38,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     { 
-        gameOver();
+        //gameOver();
     }
     public void collectTrash() {
         trashCollected += 1;
@@ -40,12 +49,13 @@ public class GameManager : MonoBehaviour
     }
     void gameOver() {
         //Failure
-        if (numberOfTurtlesSaved == 0 && numberOfTurtlesAlive == 0 && numberOfTurtlesLeft() == 0) {
-
+        if (numberOfTurtlesSaved == 0 && numberOfTurtlesAlive == 0 && numberOfTurtlesLeft() == 0)
+        {
+            SceneManager.LoadScene("Game Over");
         }
         //Success
         else if (numberOfTurtlesSaved > 0 && numberOfTurtlesAlive > 0 && numberOfTurtlesLeft() == 0) {
-            victory = true;
+            //victory = true;
         }
     }
 
@@ -78,12 +88,31 @@ public class GameManager : MonoBehaviour
         return maxNumberOfTurtles;
     }
 
-    public void turtleDied(int ID) {
+    public int GetSaved()
+    {
+        return saved;
+    }
+
+    public int GetDied()
+    {
+        return died;
+    }
+
+    public void turtleDied(int ID)
+    {
+        died++;
+
+        if (died == 6)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
         babyTutrleStatus[ID] = 2;
     }
 
     public void turtleFound(int ID)
     {
+        saved++;
+
         babyTutrleStatus[ID] = 1;
     }
 

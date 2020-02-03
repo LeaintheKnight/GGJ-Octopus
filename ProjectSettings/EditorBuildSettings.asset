@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MapTest.unity
     guid: 7c67026adb012a14991b6b794fdd7f3a
+  - enabled: 1
+    path: Assets/Scenes/Gavin Scenes/Victory.unity
+    guid: 4c28d4f222285124a8c5406257f7a1da
+  - enabled: 1
+    path: Assets/Scenes/Gavin Scenes/GameOver.unity
+    guid: 489ef7fdcb60cc34bb1b65d3186ff2fa
   m_configObjects: {}
