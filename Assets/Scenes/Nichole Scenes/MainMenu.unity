@@ -5723,7 +5723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d72e0565fdb674c9c25951e8fd2470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goTo: {fileID: 0}
+  goTo: {fileID: 97592277407762235}
   moveSpeed: 0.01
   flipX: 0
 --- !u!4 &1113878063482102835
