@@ -44,18 +44,17 @@ public class PauseMenu : MonoBehaviour
     public void goToMainMenu()
     {
         GetComponent<FMODUnity.StudioEventEmitter>().Play();
-
         Time.timeScale = 1f;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         screen.SetActive(false);
         SceneManager.LoadScene("MainMenu");
+
     }
 
     public void quitGame()
     {
         GetComponent<FMODUnity.StudioEventEmitter>().Play();
-        Debug.Log("Quit");
         Application.Quit();
     }
 }
