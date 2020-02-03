@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{5723bd8c-f911-4dc3-b544-381c77e5adca}">
+		<property name="assetPath">
+			<value>Sad Music.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>76.852244897959181</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{17e459f0-79c8-476d-b1c8-8156b1a07f7e}</destination>
+		</relationship>
+	</object>
+</objects>

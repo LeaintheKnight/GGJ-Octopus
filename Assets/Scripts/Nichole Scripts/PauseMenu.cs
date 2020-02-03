@@ -51,6 +51,14 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
 
     }
+    public void GameOver(){
+
+        Time.timeScale = 1f;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        screen.SetActive(false);
+        SceneManager.LoadScene("MainMenu");
+    }
 
     public void quitGame()
     {
