@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
         trashCollected += 1;
     }
     public void collectTurtle() {
+        GetComponent<FMODUnity.StudioEventEmitter>().Play();
         numberOfTurtlesSaved += 1;
     }
     void gameOver() {
