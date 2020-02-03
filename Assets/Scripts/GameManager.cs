@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     private int numberOfTurtlesAlive;
     private int maxNumberOfTurtles;
     private int maxTrash;
+    private bool victory = false;
     public int[] babyTutrleStatus = new int[6]; //0 uncollected, 1 colledted, 2 dead
     public static GameManager instance;
 
@@ -28,6 +29,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     { 
+        gameOver();
     }
     public void collectTrash() {
         trashCollected += 1;
@@ -43,7 +45,7 @@ public class GameManager : MonoBehaviour
         }
         //Success
         else if (numberOfTurtlesSaved > 0 && numberOfTurtlesAlive > 0 && numberOfTurtlesLeft() == 0) {
-
+            victory = true;
         }
     }
 

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8076361430081260616
+--- !u!114 &-8607139367716976377
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,419 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: FMOD_SaveTheTurtles/Build/Desktop/Master.bank
+  Path: FMOD_SaveTheTurtles/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637162568694719872
+  lastModified: 637162580065825416
   LoadResult: 0
-  FileSizes: []
+  FileSizes:
+  - Name: Desktop
+    Value: 1168
   Exists: 1
---- !u!114 &-5693989163391873594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Ocean Ambience
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Ocean Ambience
-  guid: 639d730958498d44913ff44904de7c06
-  Banks:
-  - {fileID: -8076361430081260616}
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-=======
-  - {fileID: -2399958168063053062}
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 37041
---- !u!114 &-2823086636695249515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Turtle Squeal
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Turtle Squeal
-  guid: f00b4a63d06e8a46850c2eb5dc8fb26f
-  Banks:
-  - {fileID: -8076361430081260616}
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-=======
-  - {fileID: -2399958168063053062}
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 5995
---- !u!114 &-2654221600061055463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Scroll
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Scroll
-  guid: 8f6311fdf2f30d4f8409214b105adb8c
-  Banks:
-  - {fileID: -8076361430081260616}
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-=======
-  - {fileID: -2399958168063053062}
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1846
---- !u!114 &-2613885791458156445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Gameplay Music 2
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Gameplay Music 2
-  guid: b70aa7ab4ea7874eaf8ecabf519e285a
-  Banks:
-  - {fileID: -8076361430081260616}
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-=======
-  - {fileID: -2399958168063053062}
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 33220
---- !u!114 &-2399958168063053062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD_SaveTheTurtles/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637162569222287680
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &-1293286612227961757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/pick up turtle
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/pick up turtle
-  guid: 3bc257b1cf130147b1744a64799c28d5
-  Banks:
-  - {fileID: -8076361430081260616}
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-=======
-  - {fileID: -2399958168063053062}
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1850
---- !u!114 &-1211861665169731897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD_SaveTheTurtles/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637162556716831485
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 8672686974936020342}
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-=======
-  - {fileID: -2399958168063053062}
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
-  EditorEvents:
-  - {fileID: 3657668104666076533}
-  - {fileID: 2374730977649754500}
-  - {fileID: 4658941427269705786}
-  - {fileID: 2624875988488855002}
-  - {fileID: -5693989163391873594}
-  - {fileID: -2823086636695249515}
-  - {fileID: -2654221600061055463}
-  - {fileID: 3407644720345613714}
-  - {fileID: -2613885791458156445}
-  - {fileID: -1293286612227961757}
-  EditorParameters: []
-  MasterBanks:
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-  StringsBanks:
-  - {fileID: 8672686974936020342}
-  stringsBankWriteTime: 637162576031046305
-=======
-  - {fileID: -2399958168063053062}
-  StringsBanks:
-  - {fileID: 8672686974936020342}
-  stringsBankWriteTime: 637162569222297657
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
-  cacheVersion: 3
---- !u!114 &132251850627847427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD_SaveTheTurtles/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637162576031026266
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &517703419455681553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD_SaveTheTurtles/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637162569222287680
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &641713055774681419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD_SaveTheTurtles/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637162568694719872
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &2374730977649754500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Gameplay Music 1
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Gameplay Music 1
-  guid: 4c2fd6fca333594c9483c1bb9e7651f9
-  Banks:
-  - {fileID: -8076361430081260616}
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-=======
-  - {fileID: -2399958168063053062}
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 33333
---- !u!114 &2624875988488855002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Select
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Select
-  guid: 51e1f24052717041b7bf5276c082385e
-  Banks:
-  - {fileID: -8076361430081260616}
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-=======
-  - {fileID: -2399958168063053062}
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2975
---- !u!114 &3407644720345613714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Gameplay Music 3
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Gameplay Music 3
-  guid: a0116ce98be6ce42918462a417ee3625
-  Banks:
-  - {fileID: -8076361430081260616}
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-=======
-  - {fileID: -2399958168063053062}
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 66461
---- !u!114 &3657668104666076533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/One Last Turtle
-  m_EditorClassIdentifier: 
-  Path: event:/Music/One Last Turtle
-  guid: 21079fb9cf9a8443afc233c99c318ef8
-  Banks:
-  - {fileID: -8076361430081260616}
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-=======
-  - {fileID: -2399958168063053062}
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 38520
---- !u!114 &4085243745308928167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD_SaveTheTurtles/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637162525968539757
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &4658941427269705786
+--- !u!114 &-6867025089471505409
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -437,12 +35,7 @@ MonoBehaviour:
   Path: event:/Music/Main Menu
   guid: 4f36d8bec5f9c24bb22bd9dd304aa184
   Banks:
-  - {fileID: -8076361430081260616}
-<<<<<<< HEAD
-  - {fileID: 132251850627847427}
-=======
-  - {fileID: -2399958168063053062}
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
+  - {fileID: 3365813748652540231}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -450,7 +43,155 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 62641
---- !u!114 &8672686974936020342
+--- !u!114 &-5930965099931932471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Select
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Select
+  guid: 51e1f24052717041b7bf5276c082385e
+  Banks:
+  - {fileID: 3365813748652540231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2975
+--- !u!114 &-5098831945731468968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Scroll
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Scroll
+  guid: 8f6311fdf2f30d4f8409214b105adb8c
+  Banks:
+  - {fileID: 3365813748652540231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1846
+--- !u!114 &-3126642342033852712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/pick up turtle
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/pick up turtle
+  guid: 3bc257b1cf130147b1744a64799c28d5
+  Banks:
+  - {fileID: 3365813748652540231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1850
+--- !u!114 &-2313873035573683943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Turtle Squeal
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Turtle Squeal
+  guid: f00b4a63d06e8a46850c2eb5dc8fb26f
+  Banks:
+  - {fileID: 3365813748652540231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5995
+--- !u!114 &-1029016063609614907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/One Last Turtle
+  m_EditorClassIdentifier: 
+  Path: event:/Music/One Last Turtle
+  guid: 21079fb9cf9a8443afc233c99c318ef8
+  Banks:
+  - {fileID: 3365813748652540231}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 38520
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -8607139367716976377}
+  - {fileID: 3365813748652540231}
+  EditorEvents:
+  - {fileID: -1029016063609614907}
+  - {fileID: -3126642342033852712}
+  - {fileID: 4489156698631520900}
+  - {fileID: -6867025089471505409}
+  - {fileID: -5930965099931932471}
+  - {fileID: 6158850339579453983}
+  - {fileID: -5098831945731468968}
+  - {fileID: 3956528581517089768}
+  - {fileID: 7004185384041500720}
+  - {fileID: -2313873035573683943}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 3365813748652540231}
+  StringsBanks:
+  - {fileID: -8607139367716976377}
+  stringsBankWriteTime: 637162580065825416
+  cacheVersion: 3
+--- !u!114 &3365813748652540231
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -460,17 +201,103 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: FMOD_SaveTheTurtles/Build/Desktop/Master.strings.bank
+  Path: FMOD_SaveTheTurtles/Build/Desktop/Master.bank
   SubDir: 
-<<<<<<< HEAD
-  lastModified: 637162576031046305
-=======
-  lastModified: 637162569222297657
->>>>>>> 35dec7c045221129176d8abeae9e68f40b19728a
+  lastModified: 637162580065815455
   LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 1168
+  FileSizes: []
   Exists: 1
+--- !u!114 &3956528581517089768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Gameplay Music 3
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Gameplay Music 3
+  guid: a0116ce98be6ce42918462a417ee3625
+  Banks:
+  - {fileID: 3365813748652540231}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 66461
+--- !u!114 &4489156698631520900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Gameplay Music 1
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Gameplay Music 1
+  guid: 4c2fd6fca333594c9483c1bb9e7651f9
+  Banks:
+  - {fileID: 3365813748652540231}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 33333
+--- !u!114 &6158850339579453983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ocean Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ocean Ambience
+  guid: 639d730958498d44913ff44904de7c06
+  Banks:
+  - {fileID: 3365813748652540231}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 37041
+--- !u!114 &7004185384041500720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Gameplay Music 2
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Gameplay Music 2
+  guid: b70aa7ab4ea7874eaf8ecabf519e285a
+  Banks:
+  - {fileID: 3365813748652540231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 33220
